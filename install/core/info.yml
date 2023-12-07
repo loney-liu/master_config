@@ -1,0 +1,10 @@
+# This file has been auto generated.
+# Please do not edit by hand.
+
+documentation_url: https://developer.shotgridsoftware.com/d587be80/?title=Integrations+User+Guide
+features:
+  bootstrap.lean_config.version: 1
+requires_shotgun_version: v5.0.0
+version: v0.20.22
+
+# end of file.
