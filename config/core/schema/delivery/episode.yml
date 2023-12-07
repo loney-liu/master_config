@@ -1,0 +1,6 @@
+# Delivery
+type: "shotgun_entity"
+entity_type: "Episode"
+name: "code"
+filters:
+  - { "path": "project", "relation": "is", "values": ["$delivery"] }  

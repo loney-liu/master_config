@@ -1,0 +1,7 @@
+# Delivery
+
+type: "shotgun_entity"
+entity_type: "Version"
+name: "sg_version_type"
+filters:
+  - { "path": "project", "relation": "is", "values": ["$delivery"] }

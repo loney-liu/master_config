@@ -1,0 +1,58 @@
+showroom:
+  linux_path: null
+  mac_path: /Volumes/SHOWROOM
+  windows_path: D:\
+  shotgun_storage_id: 180
+
+# Renders root is the central location all render passes are delivered to including drafts for any entity type
+
+renders:
+  linux_path: null
+  mac_path: /Volumes/RENDERS
+  windows_path: R:\
+  shotgun_storage_id: 178
+
+# Delivery root is used for delivery files that will be synced with AWS S3 client delivery files, excluding API specific files
+
+delivery:
+  linux_path: null
+  mac_path: /Volumes/DELIVERY
+  windows_path: Z:\
+  shotgun_storage_id: 177
+
+# The Scene Library is the central storage for mesh scenes and textured base scene environments used across the business 
+
+scene_library:
+  linux_path: null
+  shotgun_storage_id: 176
+  mac_path: /Volumes/SCENE_LIBRARY
+  windows_path: K:\
+
+
+# Production is the central storage for render ready files, these are files with combined assets/scenes to be used by the rendering engines
+
+production:
+  default: true  
+  linux_path: null
+  mac_path: /Volumes/PRODUCTION
+  windows_path: X:\
+  shotgun_storage_id: 173
+
+# The Material Library is the central storage for materials & textures used across the business 
+
+material_library:
+  linux_path: null
+  mac_path: /Volumes/MATERIAL_LIBRARY
+  windows_path: Y:\
+  shotgun_storage_id: 172
+
+
+# The Model Library is the central storage for mesh & textured assets used across the business 
+
+model_library:
+  linux_path: null
+  mac_path: /Volumes/MODEL_LIBRARY
+  shotgun_storage_id: 137
+  windows_path: W:\
+
+# End of file.

@@ -1,0 +1,12 @@
+#Model Library
+
+type: "shotgun_entity"
+entity_type: "Asset"
+name: "sg_poly_level"
+skip_unused: true
+filters:
+  - { "path": "project", "relation": "is", "values": ["$model_library"] }
+  - { "path": "sg_archetype", "relation": "is", "values": [ "$episode" ] }
+  - { "path": "sg_asset_type", "relation": "is", "values": [ "$asset_type" ] }
+  
+

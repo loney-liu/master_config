@@ -1,0 +1,11 @@
+type: "shotgun_entity"
+
+name: "code"
+
+entity_type: "Step"
+
+filters:
+    - { "path": "project", "relation": "is", "values": [ "$model_library" ] }
+    - { "path": "sg_asset_type", "relation": "is", "values": [ "$asset_type" ] }
+    - { "path": "sg_archetype", "relation": "is", "values": [ "$episode" ] }
+    - { "path": "step", "relation": "is", "values": [ "$step" ] }
